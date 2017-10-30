@@ -1,0 +1,34 @@
+String the built in funtion in python working with String()
+String methods
+string.method()
+hello.count("e")
+Strings are Immutable in the python  in such case you overrite the string.
+Inbuilt function that you can perform on: String
+.isalnum()
+.isdigit()
+.count()
+.upper()
+.lower()
+.istitle()
+String
+find the index of String. 
+x.index(birthday)
+x.strip("o")
+x.index("world")
+x.find("birthday")
+==========================
+Next we going to email slicing in the function in python
+Slice = samll piece of something large.. 
+for eg:
+string ="ABCFNIR1234"
+String is iterable data type
+what is the iteratable.. that means...step by step along with until you get to the end. 
+Slice index:
+variable [starting:end:step]
+now we will bwe running the slice
+iteratabble 
+index and start from 0
+
+***********************
+http://pythontutor.com/visualize.html#mode=display
+
