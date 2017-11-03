@@ -1,0 +1,27 @@
+known_users =["Alice","Bob","Claire","Dan","Emma","Fred","Geaorgr","Harry"] # just like the database.
+print(len(known_users))
+
+while True:
+    print("Hi my name is Travis")
+    name= input("what is your name? : ").strip().capitalize()
+    if name in known_users:
+     print("Hello ! {} you are in my databbas welcome back".format(name))
+     remove = input("Would you like to remove from our system (y/n)?:").lower()
+     if remove == "y":
+         print(known_users)
+         known_users.remove(name)
+         print(known_users)
+     elif remove == "n":
+          print("No problem , i would love to have you here")
+
+              
+    else:
+       print("Hmmm !you are not in my database, would you like register(y/n)".format(name))
+       add_me = input("would you like to add in my data bases(Y/N? ").strip().lower()
+       if add_me == "y":
+           print(known_users)
+           known_users.append(name)
+           print(known_users)
+       elif add_me == "n":
+           print("No Problem!, I would love to hear from you ")
+       
