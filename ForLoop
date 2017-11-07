@@ -1,0 +1,18 @@
+# finding the consonant and vowels in this program:
+
+vowels = 0
+consonant = 0
+
+for letter in " Hello":
+ if letter.lower() in "aeiou":
+    vowels = vowels + 1
+ elif letter == " ":
+        pass
+ else:
+        consonant = consonant + 1
+        
+print("there are {} vowels".format(vowels))
+print("there are{} consonant".format(consonant))
+vowels = 0
+consonant  = 0
+ 
