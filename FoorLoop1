@@ -1,0 +1,16 @@
+
+# we have createda the dictionary and getting the key first in the list manner and getting printing the list valuea=s with another
+#for looop.
+students = {
+
+    "male": ["tom", "charlie","Harry", "Frank"],
+    "female": ["Rita", "Sita", "mita","Emily "],
+    "bisex" : ["Rohan", "Sohan", "Mohan"],
+    "animal" :["Fish", "Crab",]
+    }
+    
+for lists in students.keys():
+    print("These are {} in our data base".format(lists))
+    for name in students[lists]:
+        if "a" in name:
+            print(name)
