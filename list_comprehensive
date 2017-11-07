@@ -1,0 +1,9 @@
+# here we are trying to print the odd or even number in time complexity manner.
+even_number= [x for x in range(1,101) if x%2==0]
+print(even_number)
+
+odd_number= [x for x in range(1,101) if x%2!=0]
+print(even_number)
+ # this example would work in any data type. below one is for string
+ words = ["tom", "mom", "pittsburg","california"]
+ answer =[[changedname.upper(),changedname.lower(),len(changedname)] for changedname in words]
