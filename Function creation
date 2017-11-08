@@ -1,0 +1,27 @@
+def hello_func():
+	gr = input("Enter your greeting here !")
+	name = input("Enterr you name here !")
+	return "{},{} How are you doing today ?".format(gr,name)
+
+hello_func()
+
+************** creating another function 
+
+def students_info(*args,**kwargs):
+	print(args)
+	print(kwargs)
+  
+ students_info('Math','Science','Nepali', name='sant', village ='pittsburg',rollNum='01')
+ 
+ ****** Anothert way of creating the functions;
+  def students_info(*args,**kwargs):
+	print(args)
+	print(kwargs)
+courses = ['math','english','science']
+info = {'name': 'jonh', 'age':22,'village': 'pittsburg'}
+students_info(*courses,**info)
+
+
+
+
+     
